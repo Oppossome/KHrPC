@@ -7,7 +7,7 @@
 // @match        https://hot-potato.reddit.com/embed*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
 // @require      https://www.marvinj.org/releases/marvinj-0.7.js
-// @grant        window.onurlchange
+// @grant        none
 // @downloadURL  https://github.com/Oppossome/KHrPC/blob/main/UserScript.js
 // @updateURL    https://raw.githubusercontent.com/Oppossome/KHrPC/main/UserScript.js
 // ==/UserScript==
