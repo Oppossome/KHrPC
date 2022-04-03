@@ -5,7 +5,7 @@
 
 ### How to install
  1) Install the script runner
-   - On Firefox: https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/
-   - On Chrome: https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo
+     - On Firefox: https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/
+     - On Chrome: https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo
 
  2) Install the script https://github.com/Oppossome/KHrPC/raw/main/userscript.user.js
