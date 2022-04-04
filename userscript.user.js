@@ -43,8 +43,8 @@ function makeCanvas() {
     let canvas = document.createElement("canvas");
     canvas.style = `position: absolute; top: 0; left: 0; width: ${rSize[0]}px; height: ${rSize[1]}px; z-index: 200px; z-index: 2000`;
     let ctx = canvas.getContext("2d");
-    ctx.canvas.height = rSize[0] * 3;
-    ctx.canvas.width = rSize[1] * 3;
+    ctx.canvas.height = rSize[0] * 5;
+    ctx.canvas.width = rSize[1] * 5;
     
     tagData.forEach((tag) => {
         const tagImg = new MarvinImage()
@@ -53,12 +53,16 @@ function makeCanvas() {
             for(let x = 0; x < tagImg.getWidth(); x++ ){
                 for(let y = 0; y < tagImg.getHeight(); y++ ){
                     const cClr = getColor(tagImg, x, y);
-                    const cX = 1 + (tag.start[0] + x) * 3;
-                    const cY = 1 + (tag.start[1] + y) * 3;
+                    const cX = (tag.start[0] + x) * 5;
+                    const cY = (tag.start[1] + y) * 5;
 
                     if (cClr.a === 255) {
                         ctx.fillStyle = `rgb(${cClr.r}, ${cClr.g}, ${cClr.b})`;
-                        ctx.fillRect(cX, cY, 1, 1);
+                        ctx.fillRect(cX + 1, cY, 1, 1);
+                        ctx.fillRect(cX + 3, cY, 1, 1);
+                        ctx.fillRect(cX, cY + 1, 5, 2);
+                        ctx.fillRect(cX + 1, cY + 3, 3, 1);
+                        ctx.fillRect(cX + 2, cY + 4, 1, 1);
                     } 
                 }
             }
