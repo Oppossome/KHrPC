@@ -8,8 +8,6 @@
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
 // @require      https://www.marvinj.org/releases/marvinj-0.7.js
 // @grant        none
-// @downloadURL  https://github.com/Oppossome/KHrPC/blob/main/userscript.user.js
-// @updateURL    https://github.com/Oppossome/KHrPC/raw/main/userscript.user.js
 // ==/UserScript==
 
 let tagData = [
