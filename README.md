@@ -1,6 +1,6 @@
 ## Kingdom Hearts r/Place Coordinator
 
-![image](https://user-images.githubusercontent.com/15877760/161452262-56aa0ad4-112f-4def-a1d5-d1139cb8a215.png)
+![image](https://user-images.githubusercontent.com/15877760/161455051-d0d16dd2-804e-4110-94e6-a90c0b1ecde3.png)
 
 
 ### How to install
