@@ -2,7 +2,7 @@
 // @name         Kingdom Hearts r/Place Coordinator
 // @namespace    http://tampermonkey.net/
 // @description  You Kidding? Do You Know How Popular I Am? I Got Loads Of People Rootin' For Me. Sorry, Boss.
-// @version      0.5
+// @version      0.6
 // @author       Opossum
 // @match        https://hot-potato.reddit.com/embed*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
@@ -16,6 +16,10 @@ let tagData = [
     {
         url: "https://raw.githubusercontent.com/Oppossome/KHrPC/main/tags/khpl.png",
         start: [1241, 673]
+    },
+    {
+        url: "https://raw.githubusercontent.com/Oppossome/KHrPC/main/tags/khpl2.png",
+        start: [0, 338]
     }
 ]
 
