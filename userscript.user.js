@@ -18,6 +18,10 @@ let tagData = [
     {
         url: "https://raw.githubusercontent.com/Oppossome/KHrPC/main/tags/khpl2.png",
         start: [0, 338]
+    },
+    {
+        url: "https://raw.githubusercontent.com/Oppossome/KHrPC/main/tags/nier.png",
+        start: [1311, 673]
     }
 ]
 
